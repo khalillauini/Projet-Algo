@@ -60,20 +60,6 @@ java -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -cp out morphology.Main
 | 5 | Analyse inverse d'un mot | Parcours exhaustif des schèmes |
 | 6 | Statistiques du système | Métriques AVL + hachage |
 
-## Schèmes Morphologiques Pré-chargés
-
-| Schème | Template | Catégorie | Exemple (racine كتب) |
-|--------|----------|-----------|----------------------|
-| فاعل | 1ا2ِ3 | Nom d'agent | كاتِب |
-| مفعول | م1ت2و3 | Nom d'objet | مَكتوب |
-| فَعَل | 1َ2َ3 | Accompli | كَتَب |
-| فِعَال | 1ِ2ا3 | Masdar intensif | كِتاب |
-| مَفْعَل | م1ْ2َ3 | Nom de lieu | مَكتَب |
-| فَعِيل | 1َ2ي3 | Adjectif | - |
-| افتعل | ا1تَ2َ3 | Forme VIII | اكتَتَب |
-| تفعيل | ت1ْ2ي3 | Masdar f.II | تَكْتيب |
-| فَعَّال | 1َ2َّا3 | Nom de métier | - |
-
 ## Complexité Algorithmique
 
 - **Arbre AVL :** O(log n) pour insertion, recherche, suppression
