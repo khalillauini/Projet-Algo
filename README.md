@@ -1,7 +1,7 @@
 # محرك البحث الصرفي العربي
 # Moteur de Recherche Morphologique Arabe
 
-Mini-projet Algorithmique — 1ING GLSI — 2025-2026
+Mini-projet Algorithmique — 1ING — 2025-2026
 
 ## Structure du Projet
 
